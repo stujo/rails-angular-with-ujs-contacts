@@ -1,6 +1,10 @@
 class ContactsController < ApplicationController
   before_action :set_contact, only: [:show, :edit, :update, :destroy]
 
+  def spa
+    render :spa    
+  end
+
   # GET /contacts
   # GET /contacts.json
   def index

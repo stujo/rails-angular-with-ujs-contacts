@@ -11,8 +11,8 @@
 // about supported directives.
 //
 //= require angular
-//   require ng-rails-csrf
+//= require ng-rails-csrf
 //= require angular-ujs
 //   require angular-animate
-//   require angular-resource
+//= require angular-resource
 //= require contacts

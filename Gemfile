@@ -30,7 +30,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-#gem 'ng-rails-csrf' # Optional
+gem 'ng-rails-csrf' # Optional
 gem 'angular-ujs'
 gem 'angularjs-rails'
 
