@@ -1,5 +1,10 @@
-Single Page App
+<h1>Single Page App</h1>
 
+<div ng-controller="ContactsController">
+  <div ng-repeat="contact in contacts track by contact.id" id="{{contact.id}}">
+    {{contact.name}} - {{contact.phone}} <button ng-click="doubleName(contact)">DOUBLE</button>
+  </div>
+  <button ng-click="reloadContacts()" ng-show="contacts">Reload</button>
+</div>
 
-
-  <%= javascript_include_tag 'spa' %>
+<%= javascript_include_tag 'spa' %>
